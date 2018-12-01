@@ -1,0 +1,71 @@
+<div id="myform">
+  <h1>Formulaire De Reservation</h1>
+	<br/>
+	<br/>
+	<form action="#" method="post">
+    <div class="row">
+      <div class="col">
+    <h3 class="noms">Nom:</h3>
+  </div>
+  <div class="col-8">
+    <input type="text" [(ngModel)]="nom" name="nom" size="50" maxlength="50" placeholder="nom" required="required"/>
+  </div>
+  </div>
+  <div class="row">
+      <div class="col">
+    <h3 class="noms">Prénom:</h3>
+    </div>
+    <div class="col-8">
+    <input type="text" [(ngModel)]="prenom" name="prenom" size="50" maxlength="50" placeholder="prénom" required="required"/>
+  </div>
+  </div>
+  <div class="row">
+      <div class="col">
+    <h3 class="noms">Adresse e-mail:</h3>
+    </div>
+    <div class="col-8">
+    <input type="email" [(ngModel)]="email" name="e-mail" size="50" maxlength="50" placeholder="xyz@example.com" required="required"/>
+  </div>
+  </div>
+  <div class="row">
+      <div class="col">
+    <h3 class="noms">Numéro apogée:</h3>
+    </div>
+    <div class="col-8">
+    <input type="text" [(ngModel)]="numApogee" name="num_apogee" size="50" maxlength="50"required="required"/>
+  </div>
+  </div>
+  <div class="row">
+      <div class="col">
+    <h3 class="noms">CNE:</h3>
+    </div>
+    <div class="col-8">
+    <input type="text" [(ngModel)]="cne" name="cne" size="50" maxlength="50"required="required"/>
+  </div>
+  </div>
+  <div class="row">
+      <div class="col">
+    <h3 class="noms">CIN:</h3>
+    </div>
+    <div class="col-8">
+    <input type="text" [(ngModel)]="cin" name="cin" size="50" maxlength="50"required="required"/>
+  </div>
+  </div>
+  <div class="row">
+      <div class="col">
+    <h3 class="noms">Filière:</h3>
+    </div>
+    <div class="col-8">
+		<select name="ville" size="1">
+        <option value="GI">Génie Informatique</option>
+        <option value="GIND">Génie Industriel</option>
+        <option value="GESE">Génie électrique - SE</option>
+        <option value="GEER">Génie électrique - ER</option>
+        <option value="GRST">Génie réseaux et telecoms</option>
+        <option value="GM">Génie mécatronique</option>
+      </select>
+    </div>
+    </div>
+    <input class="boutton" type="submit" name="envoyer" value="Envoyer"  (click)="valid()" />
+	</form>
+</div>

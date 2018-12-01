@@ -1,0 +1,39 @@
+
+.row{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+h1{font-family: bookman,arial, verdana, sans serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	text-transform: capitalize;
+    color: rgb(33, 122, 173);
+    padding-top: 5%;
+	}
+h3.noms{font-family: arial, verdana, sans serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 1.1em;
+	text-transform: capitalize;
+    color: rgb(36, 134, 190);
+	}
+input.boutton{background-color: lavender;
+              color: #000000;
+              margin-left: 37%;
+              margin-top: 5%;
+              width: 15%;
+              height:30%;
+              border-radius: 15%;
+             }
+input{
+    border-radius: 10%;
+    padding-left: 2%;
+}
+select{
+    width: 62.5%;
+    border-radius: 10%;
+}

@@ -1,0 +1,8 @@
+.navbar-nav{
+background-color:rgb(36, 134, 190);
+width: 100%;
+}
+.nav-item{
+    text-align: center;
+    font-weight: bold;
+}

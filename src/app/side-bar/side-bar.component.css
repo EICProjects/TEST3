@@ -1,0 +1,47 @@
+.sideBar{
+    
+    width: 200px;
+    height: 700px ;
+
+  margin: 0;
+  padding: 0;
+ 
+  background-color: #f1f1f1;
+  position: fixed;
+  
+  overflow: auto;
+
+}
+
+.sideBar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    padding-left: 15%;
+    text-decoration: none;
+  }
+  .sideBar a.active {
+    background-color: rgb(33, 122, 173);
+    color: white;
+  }
+  .sideBar a:hover:not(.active) {
+    background-color: rgb(140, 209, 218);
+    color: white;
+  }
+  
+#button_1{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.mainContainer {
+   
+    height:100% ;
+    width: 80%;
+    margin-left: 200px;
+}
+.floatLeft{
+float: left;
+}
+.fixed { position: fixed;}
